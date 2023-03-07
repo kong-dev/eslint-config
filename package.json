@@ -5,7 +5,9 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "vue3.js"
+    "vue3.js",
+    "base.js",
+    "only-rules.js"
   ],
   "publishConfig": {
     "access": "public"
