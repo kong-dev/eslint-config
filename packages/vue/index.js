@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
-    require.resolve('./base'),
+    require.resolve('@kong-dev/eslint-config-base/base'),
     'eslint:recommended',
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-typescript/recommended',
-    require.resolve('./only-rules'),
+    require.resolve('@kong-dev/eslint-config-base/rules'),
   ],
   rules: {
     'vue/multi-word-component-names': 'warn',

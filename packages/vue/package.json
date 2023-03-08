@@ -1,8 +1,14 @@
 {
-  "name": "@kong-dev/eslint-config",
+  "name": "@kong-dev/eslint-config-vue",
   "version": "0.0.4",
   "description": "Shared eslint config",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kong-dev/eslint-config.git"
@@ -15,12 +21,17 @@
   "scripts": {
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.54.1",
-    "@typescript-eslint/parser": "^5.54.1"
+    "@kong-dev/eslint-config-base": "workspace:*",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint-plugin-vue": "^9.9.0"
   },
   "devDependencies": {
     "eslint": "^8.35.0",
     "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0 || ^8.0.0",
+    "typescript": "*"
   },
   "engines": {
     "node": ">=16.0.0"

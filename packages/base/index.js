@@ -3,6 +3,6 @@ module.exports = {
     require.resolve('./base'),
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    require.resolve('./only-rules'),
+    require.resolve('./rules'),
   ],
 }
