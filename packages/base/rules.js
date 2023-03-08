@@ -61,8 +61,9 @@ module.exports = {
         '@typescript-eslint/no-throw-literal': 'warn',
         '@typescript-eslint/prefer-includes': 'warn',
         '@typescript-eslint/prefer-nullish-coalescing': ['warn', {
-          ignoreConditionalTests: false,
-          ignoreMixedLogicalExpressions: false
+          ignoreTernaryTests: true,
+          ignoreConditionalTests: true,
+          ignoreMixedLogicalExpressions: true,
         }],
         '@typescript-eslint/prefer-optional-chain': 'warn',
         '@typescript-eslint/prefer-readonly': 'warn',
@@ -73,13 +74,14 @@ module.exports = {
         '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
         '@typescript-eslint/return-await': ['error', 'in-try-catch'],
         '@typescript-eslint/strict-boolean-expressions': ['error', {
-          allowString: false,
-          allowNumber: false,
-          allowNullableObject: false,
+          allowString: true,
+          allowNumber: true,
+          allowNullableObject: true,
           allowNullableBoolean: false,
           allowNullableString: false,
           allowNullableNumber: false,
-          allowAny: false
+          allowNullableEnum: false,
+          allowAny: false,
         }],
         '@typescript-eslint/switch-exhaustiveness-check': 'error',
       }
