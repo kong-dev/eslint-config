@@ -1,6 +1,6 @@
 {
   "name": "@kong-dev/eslint-config-base",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Shared eslint config",
   "main": "index.js",
   "files": [
