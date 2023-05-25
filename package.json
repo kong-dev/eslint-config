@@ -13,6 +13,7 @@
   "author": "kong-dev",
   "license": "MIT",
   "scripts": {
+    "publish": "pnpm -F @kong-dev/eslint-config-* publish",
     "version": "run-s version:*",
     "version:rush": "pnpm -r --parallel exec npm version ${npm_package_version}",
     "version:commit": "git add . && git commit -m \"chore: v${npm_package_version}\""
