@@ -48,7 +48,9 @@ module.exports = {
           allowExpressions: true,
           allowHigherOrderFunctions: true,
           allowTypedFunctionExpressions: true,
-          allowDirectConstAssertionInArrowFunctions: true
+          allowFunctionsWithoutTypeParameters: true,
+          allowDirectConstAssertionInArrowFunctions: true,
+          allowConciseArrowFunctionExpressionsStartingWithVoid: true,
         }],
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
