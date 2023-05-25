@@ -1,6 +1,6 @@
 {
   "name": "@kong-dev/eslint-config-base",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Shared eslint config",
   "main": "index.js",
   "files": [
@@ -20,8 +20,7 @@
   ],
   "author": "kong-dev",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1"

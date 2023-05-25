@@ -1,6 +1,6 @@
 {
   "name": "@kong-dev/eslint-config-taro",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Shared eslint config",
   "main": "index.js",
   "files": [
@@ -18,8 +18,7 @@
   ],
   "author": "kong-dev",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "@kong-dev/eslint-config-base": "workspace:*",
     "eslint-plugin-import": "^2.27.5",

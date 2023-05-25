@@ -1,6 +1,6 @@
 {
   "name": "@kong-dev/eslint-config-vue",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Shared eslint config",
   "main": "index.js",
   "files": [
@@ -18,8 +18,7 @@
   ],
   "author": "kong-dev",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "@kong-dev/eslint-config-base": "workspace:*",
     "@vue/eslint-config-typescript": "^11.0.2",
