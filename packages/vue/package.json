@@ -21,15 +21,15 @@
   "scripts": {},
   "dependencies": {
     "@kong-dev/eslint-config-base": "workspace:*",
-    "@vue/eslint-config-typescript": "^11.0.2",
-    "eslint-plugin-vue": "^9.9.0"
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint-plugin-vue": "^9.20.1"
   },
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "typescript": "^4.9.5"
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0 || ^8.0.0",
+    "eslint": "^8.0.0",
     "typescript": "*"
   },
   "engines": {
